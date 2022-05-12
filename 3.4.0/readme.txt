@@ -20,3 +20,4 @@ Disable most kinematics to spare memory by setting from 1 to 0
 e.g.
 # define SUPPORT_FIVEBARSCARA	0
 One of the delta kinematics has code to be disabled in the GCodes files additionally.
+(Compilation will tell where).
