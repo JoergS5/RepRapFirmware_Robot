@@ -9,7 +9,7 @@ Change Kinematics.cpp:
 add:
 #include "RobotKinematics.h"
 
-add:
+add in Create() where the kinematics is decided:
 #if SUPPORT_ROBOT
 	case KinematicsType::robot:
 		return new RobotKinematics();
